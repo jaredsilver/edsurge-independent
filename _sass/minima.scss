@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+// Custom imports
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+// Define defaults for each variable.
+
+$base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$header-font-family: "Raleway", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #111 !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #1D90AC !default;
+
+$grey-color:       #9BB4BE !default;
+$grey-color-light: lighten($grey-color, 20%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+// Width of the content area
+$content-width:    1000px !default;
+
+$on-palm:           600px !default;
+$on-laptop:        1000px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;
+
+// Custom styles (overwriting theme)
+
+// Header styles
+
+.site-title {
+  line-height: normal;
+
+  img {
+    max-width: 400px;
+  }
+}
+
+.site-header {
+  padding: 10px;
+  border-top: 2px solid $grey-color;
+}
+
+.site-nav .page-link {
+  color: #1D90AC;
+}
+
+
+// Typography
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
+
+a, a.page-link {
+  &:hover {
+    color: darken($brand-color, 10%);
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: $brand-color;
+
+    &:hover {
+      color: darken($brand-color, 10%);
+    }
+  }
+}
