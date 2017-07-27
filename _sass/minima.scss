@@ -2,6 +2,7 @@
 
 // Custom imports
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 // Define defaults for each variable.
 
@@ -65,8 +66,11 @@ $on-laptop:        1000px !default;
 }
 
 .site-header {
-  padding: 10px;
   border-top: 2px solid $grey-color;
+  left: 0;
+  padding: 10px;
+  postion: absolute;
+  top: 0;
 }
 
 .site-nav .page-link {
@@ -91,6 +95,53 @@ a, a.page-link {
 
     &:hover {
       color: darken($brand-color, 10%);
+    }
+  }
+}
+
+// Footer styles
+
+.site-footer {
+  border-top: 1px solid $grey-color-light;
+  bottom: 0;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  width: 100%;
+
+  .wrapper {
+    display: flex;
+  }
+
+  .footer-cta {
+    align-self: center;
+    margin-bottom: 3px;
+
+    i.fa {
+      margin: 0 3px;
+    }
+
+    &:hover i.fa {
+      margin: 0 0 0 6px;
+    }
+  }
+
+  .social-media-list {
+    flex-grow: 1;
+    font-size: 24px;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      padding: 0;
+
+      a, a:visited {
+        color: $grey-color;
+
+        &:hover {
+          color: $brand-color;
+        }
+      }
     }
   }
 }

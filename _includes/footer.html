@@ -1,0 +1,31 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <ul class="social-media-list">
+      {% if site.facebook_username %}
+      <li>
+        <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+      {% if site.email %}
+      <li>
+        <a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+    </ul>
+
+    <div class="footer-cta">
+      {% if site.publication_link %}
+        <a href="{{ site.publication_link }}">Read {{ site.title }} <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+
+  </div>
+
+</footer>
