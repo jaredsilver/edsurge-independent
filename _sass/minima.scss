@@ -1,13 +1,12 @@
 @charset "utf-8";
 
 // Custom imports
-@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 // Define defaults for each variable.
 
 $base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$header-font-family: "Raleway", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -56,6 +55,11 @@ $on-laptop:        1000px !default;
 
 // Custom styles (overwriting theme)
 
+.inner-wrapper {
+  margin: auto;
+  max-width: 700px;
+}
+
 // Header styles
 
 .site-title {
@@ -87,7 +91,12 @@ $on-laptop:        1000px !default;
 // Typography
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $header-font-family;
+  color: $grey-color-dark;
+  text-align: center;
+}
+
+h1 {
+  line-height: 1.4;
 }
 
 a, a.page-link {
@@ -165,10 +174,35 @@ a, a.page-link {
   }
 
   input, textarea {
+    border-radius: 3px;
+    border: 2px solid $grey-color-light;
+    color: $grey-color-dark;
+    display: block;
     font-family: $base-font-family;
     font-size: 16px;
+    margin: 5px 0 20px 0;
+    outline: none;
     padding: 3px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    width: 80%;
+    &:focus {
+      border-color: $grey-color;
+    }
   }
+
+  input {
+    max-width: 250px;
+  }
+  textarea {
+    max-width: 500px;
+  }
+  input[type="submit"] {
+    max-width: 200px;
+  }
+}
+
+// Misc styles
+hr {
+  border: 1px solid $grey-color-light;
+  margin: 40px auto;
+  width: 80%;
 }

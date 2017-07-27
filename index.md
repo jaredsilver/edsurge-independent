@@ -2,4 +2,13 @@
 layout: default
 ---
 
-<h1>A community by students, for students, to give students voice</h1>
+# By students, for students, to give students voice.
+
+Each semester, we convene a group of the world's most impressive young people who care about making an impact in education.
+
+This community of EdSurge Independent Fellows comes together to discuss the most pressing challenges in education and to share their perspectives with the world.
+
+copy copy copy
+
+<a class="primary cta" href="/apply">Apply to Be a Fellow</a>
+<a class="secondary cta" href="https://edsurgeindependent.com">Read EdSurge Independent</a>
