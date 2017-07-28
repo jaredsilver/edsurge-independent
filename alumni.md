@@ -10,15 +10,17 @@ order: 1
 # Past Speakers
 <div class="card-container">
 {% for speaker in site.data.speakers %}
-  <div class="person-card">
-    <div class="person-card-image-container">
-      <img src="{{ site.baseurl }}/images/{{ speaker.image }}" />
+  {% if speaker.display == 'true' %}
+    <div class="person-card">
+      <div class="person-card-image-container">
+        <img src="{{ site.baseurl }}/images/{{ speaker.image }}" />
+      </div>
+      <div class="person-card-text-container">
+        <h3>{{ speaker.name }}</h3>
+        <p>{{ speaker.bio }}</p>
+      </div>
     </div>
-    <div class="person-card-text-container">
-      <h3>{{ speaker.name }}</h3>
-      <p>{{ speaker.bio }}</p>
-    </div>
-  </div>
+  {% endif %}
 {% endfor %}
 </div>
 
@@ -49,5 +51,4 @@ order: 1
 {% endfor %}
 </div>
 
-<a class="primary cta" href="{{ site.baseurl }}/apply">Apply to Become a Fellow</a>
-<a class="secondary cta" href="https://edsurgeindependent.com">Read EdSurge Independent</a>
+{% include cta.html %}

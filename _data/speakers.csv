@@ -1,7 +1,8 @@
-name,bio,image
-Rahim Rajan,"Senior Program Officer, Postsecondary Success, Bill & Melinda Gates Foundation",rahim.jpg
-Stephen Kosslyn,"Founding Dean & Chief Academic Officer, Minerva Schools at KGI",stephen.jpg
-Alex Madjar,"Senior Software Engineer, AltSchool; Former Product Engineer, Facebook",alex.jpg
-Andrew Sutherland,"Founder & CTO, Quizlet",andrew.jpg
-Jeffrey Young,"Senior Editor, EdSurge; 2014 Nieman Fellow, Harvard",jeff.jpg
-Kreigh Knerr,"Director, Knerr Learning Center",kreigh.jpg
+name,bio,image,display
+Andrew Sutherland,"Founder & CTO, Quizlet",andrew.jpg,true
+Betsy Corcoran,"CoFounder & CEO, EdSurge",betsy.jpg,true
+Jeffrey Young,"Senior Editor, EdSurge; 2014 Nieman Fellow, Harvard",jeff.jpg,true
+Alex Madjar,"Senior Software Engineer, AltSchool; Former Product Engineer, Facebook",alex.jpg,true
+Stephen Kosslyn,"Founding Dean & Chief Academic Officer, Minerva Schools at KGI",stephen.jpg,true
+Rahim Rajan,"Senior Program Officer, Postsecondary Success, Bill & Melinda Gates Foundation",rahim.jpg,true
+Kreigh Knerr,"Director, Knerr Learning Center",kreigh.jpg,false

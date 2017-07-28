@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Custom imports
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 // Define defaults for each variable.
@@ -144,6 +144,21 @@ a, a.page-link {
     &:hover {
       color: darken($brand-color, 10%);
     }
+  }
+}
+
+// Homepage styles
+#faq {
+  margin: 50px 0;
+
+  h2, h3 {
+    text-align: left;
+  }
+  h3 {
+    margin: 15px 0 0 0;
+  }
+  p {
+    color: $grey-color;
   }
 }
 
