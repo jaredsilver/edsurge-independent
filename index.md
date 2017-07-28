@@ -10,5 +10,5 @@ This community of EdSurge Independent Fellows comes together to discuss the most
 
 persuasive and compelling copy goes here yay
 
-<a class="primary cta" href="/apply">Apply to Become a Fellow</a>
+<a class="primary cta" href="{{ site.baseurl }}/apply">Apply to Become a Fellow</a>
 <a class="secondary cta" href="https://edsurgeindependent.com">Read EdSurge Independent</a>

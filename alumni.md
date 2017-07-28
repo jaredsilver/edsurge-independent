@@ -11,7 +11,7 @@ order: 1
 {% for speaker in site.data.speakers %}
   <div class="person-card">
     <div class="person-card-image-container">
-      <img src="/images/{{ speaker.image }}" />
+      <img src="{{ site.baseurl }}/images/{{ speaker.image }}" />
     </div>
     <div class="person-card-text-container">
       <h3>{{ speaker.name }}</h3>
@@ -26,7 +26,7 @@ order: 1
 {% for leader in site.data.leaders %}
   <div class="person-card">
     <div class="person-card-image-container">
-      <img src="/images/{{ leader.image }}" />
+      <img src="{{ site.baseurl }}/images/{{ leader.image }}" />
     </div>
     <div class="person-card-text-container">
       <h3>{{ leader.name }}</h3>
@@ -48,5 +48,5 @@ order: 1
 {% endfor %}
 </div>
 
-<a class="primary cta" href="/apply">Apply to Become a Fellow</a>
+<a class="primary cta" href="{{ site.baseurl }}/apply">Apply to Become a Fellow</a>
 <a class="secondary cta" href="https://edsurgeindependent.com">Read EdSurge Independent</a>
