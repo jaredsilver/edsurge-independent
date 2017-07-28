@@ -38,16 +38,16 @@ Please feel free to contact us ([independent@edsurge.com](mailto:independent@eds
   <label for="m_3447411334473707672entry_235528932">When do you plan to graduate (month, year)?</label>
   <input type="text" name="entry.235528932" value="" id="m_3447411334473707672entry_235528932" required>
 
-  <label for="m_3447411334473707672entry_238277563">LinkedIn Profile URL<div class="helper-text">Leave blank if not applicable.</div></label>
+  <label for="m_3447411334473707672entry_238277563">LinkedIn Profile URL<div class="helper-text">Feel free to leave this blank if you don't have one.</div></label>
   <input type="text" name="entry.238277563" value="" id="m_3447411334473707672entry_238277563">
 
-  <label for="m_3447411334473707672entry_972202758">Samples of your work<div class="helper-text">Please provide links to a least two samples of your work. This can be writing or any other medium in which you express yourself effectively. Feel free to host this on Google Drive if it is not published elsewhere.</div></label>
+  <label for="m_3447411334473707672entry_972202758">Samples of your work<div class="helper-text">Please provide links to at least two samples of your work. This can be writing or any other medium in which you express yourself effectively. Feel free to host this on Google Drive if it is not published elsewhere.</div></label>
   <textarea name="entry.972202758" class="m_3447411334473707672ss-q-long" id="m_3447411334473707672entry_972202758" required></textarea>
 
-  <label for="m_3447411334473707672entry_1413451206">Please provide a short bio in third person (~200 words)<div class="helper-text">If you are selected for the cohort, this will form part of our 'Introducing the Cohort' Series as well as forming a large part of your application. You can see last cohort's biographies [here](https://edsurgeindependent.com/edsurge-independent-cohort-summer-2017-30393db13294).</div></label>
+  <label for="m_3447411334473707672entry_1413451206">Please provide a short bio in third person (~200 words)<div class="helper-text">If you are selected for the cohort, this will form part of our 'Introducing the Cohort' post as well as forming a large part of your application. You can see last cohort's biographies <a href="https://edsurgeindependent.com/edsurge-independent-cohort-summer-2017-30393db13294">here</a>).</div></label>
   <textarea name="entry.1413451206" class="m_3447411334473707672ss-q-long" id="m_3447411334473707672entry_1413451206" required></textarea>
 
-  <label for="m_3447411334473707672entry_1962540693">Why do you want to join EdSurge Independent? What are you hoping to learn, and what can you add to the cohort? (~200 words)</label>
+  <label for="m_3447411334473707672entry_1962540693">Why do you want to join EdSurge Independent, what are you hoping to learn, and what can you add to the cohort? (~200 words)</label>
   <textarea name="entry.1962540693" class="m_3447411334473707672ss-q-long" id="m_3447411334473707672entry_1962540693" required></textarea>
 
   <input type="submit" value="Submit Application" class="primary cta" />
