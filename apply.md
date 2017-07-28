@@ -50,6 +50,6 @@ Please feel free to contact us ([independent@edsurge.com](mailto:independent@eds
   <label for="m_3447411334473707672entry_1962540693">Why do you want to join EdSurge Independent, what are you hoping to learn, and what can you add to the cohort? (~200 words)</label>
   <textarea name="entry.1962540693" class="m_3447411334473707672ss-q-long" id="m_3447411334473707672entry_1962540693" required></textarea>
 
-  <input type="submit" value="Submit Application" class="primary cta" />
+  <input type="submit" value="Submit Application" />
 
 </form>
