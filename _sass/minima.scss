@@ -28,6 +28,7 @@ $content-width:    1000px !default;
 
 $on-palm:           600px !default;
 $on-laptop:        1000px !default;
+$nav-breakpoint:    850px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -66,7 +67,7 @@ $on-laptop:        1000px !default;
   line-height: normal;
 
   img {
-    max-width: 400px;
+    width: 400px;
   }
 }
 
@@ -78,6 +79,42 @@ $on-laptop:        1000px !default;
   position: fixed;
   top: 0;
   width: 100%;
+
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .flex-spacer {
+      flex-grow: 1;
+      min-width: 40px;
+    }
+  }
+}
+
+@include media-query($nav-breakpoint) {
+  .flex-spacer  { display: none; }
+  .site-header  { padding: 10px 0 0 0; }
+  .page-content { padding-top: 50px; }
+  .site-title, .site-nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@include media-query($on-palm) {
+  .page-content { padding-top: 40px; }
+  .site-nav {
+    background-color: transparent;
+    border: none;
+    line-height: 42px;
+    position: inherit;
+
+    .page-link {
+      display: inline-block;
+      margin-left: 0;
+    }
+  }
 }
 
 .site-nav .page-link {
@@ -259,6 +296,13 @@ a, a.page-link {
 }
 
 // Misc styles
+.mobile-show { display: none; }
+
+@include media-query($on-palm) {
+  .mobile-show { display: inherit; }
+  .mobile-hide { display: none; }
+}
+
 hr {
   border: 1px solid $grey-color-light;
   margin: 40px auto;

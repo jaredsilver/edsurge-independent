@@ -2,6 +2,7 @@
 layout: default
 title: Past Speakers & Fellows
 nav_title: Past Speakers & Fellows
+mobile_nav_title: Alumni
 permalink: /past-speakers-and-fellows/
 order: 1
 ---
@@ -21,7 +22,7 @@ order: 1
 {% endfor %}
 </div>
 
-# EdSurge Independent Cohort Leaders
+# Cohort Leaders
 <div class="card-container">
 {% for leader in site.data.leaders %}
   <div class="person-card">
@@ -36,7 +37,7 @@ order: 1
 {% endfor %}
 </div>
 
-# EdSurge Independent Fellows
+# Fellows
 <div class="card-container">
 {% for fellow in site.data.fellows %}
   <div class="person-card">
