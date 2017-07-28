@@ -207,11 +207,13 @@ a, a.page-link {
 .card-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 30px 0 60px 0;
 
   .person-card {
-    margin: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px 16px 8px;
     max-width: 210px;
     width: 100%;
 
@@ -233,7 +235,14 @@ a, a.page-link {
     .person-card-text-container {
       border-radius: 0 0 5px 5px;
       box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);
+      flex-grow: 1;
       padding: 10px;
+
+      &.no-image {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: none;
+      }
 
       h3 {
         margin: -2px 0 2px 0;
