@@ -58,7 +58,7 @@ layout: default
 
   <p>This is your chance to have your voice heard!</p>
 
-  <p>You'll have the opportunity to produce writing or other creative media for the the EdSurge Independent publication, which is ready by many fellow students and education leaders.</p>
+  <p>You'll have the opportunity to produce writing or other creative media for the the EdSurge Independent publication, which is read by many fellow students and education leaders.</p>
 </div>
 
 {% include cta.html %}
