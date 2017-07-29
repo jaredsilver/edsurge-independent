@@ -6,9 +6,42 @@ layout: default
 
 ## Each semester, we convene a group of the world's most impressive young people who care about making an impact in education.
 
-These *EdSurge Independent Fellows* discuss the most pressing challenges in education, meet with leaders in the education space, and have the opportunity to write for the EdSurge Independent publication.
+<div id="index-section-icons">
+  <div class="index-section-icon-holder">
+    <div class="index-section-icon-background">
+      <img src="{{ site.baseurl }}/images/community-icon.svg" />
+    </div>
+    <div class="index-section-icons-text-container">
+      <h3>Join a community deeply passionate about improving education.</h3>
+    </div>
+  </div>
+  <div class="index-section-icon-holder">
+    <div class="index-section-icon-background">
+      <img src="{{ site.baseurl }}/images/network-icon.svg" />
+    </div>
+    <div class="index-section-icons-text-container">
+      <h3>Meet leading education philanthropists and entrepreneurs.</h3>
+    </div>
+  </div>
+  <div class="index-section-icon-holder">
+    <div class="index-section-icon-background">
+      <img src="{{ site.baseurl }}/images/perspective-icon.svg" />
+    </div>
+    <div class="index-section-icons-text-container">
+      <h3>Share your perspective with the readers of EdSurge Independent.</h3>
+    </div>
+  </div>
+</div>
 
-persuasive and compelling copy goes here yay
+{% include cta.html %}
+
+<h2 class="index-section-header">Join a Community</h2>
+discuss the most pressing challenges in education
+
+<h2 class="index-section-header">Meet Education Leaders</h2>
+
+<h2 class="index-section-header">Share Your Perspective</h2>
+have the opportunity to write for the EdSurge Independent publication
 
 {% include cta.html %}
 
@@ -29,6 +62,9 @@ persuasive and compelling copy goes here yay
 
   <h3>What sorts of people are generally selected as EdSurge Independent Fellows?</h3>
   <p>EdSurge Independent Fellows are an incredibly diverse group of students (with varying definitions of the word) from all around the world. We've had graduate and undergraduate students, college dropouts, student entrepreneurs, student voice advocates, members of the LGBTQ community, and many others. The only commonality is that <em>everyone</em> cares deeply about improving education.</p>
+
+  <h3>I have a question, comment, or concern. How can I get in touch?</h3>
+  <p>Please feel free to email the current student leaders at <a href="mailto:independent@edsurge.com">independent@edsurge.com</a>.</p>
 </div>
 
 {% include cta.html %}

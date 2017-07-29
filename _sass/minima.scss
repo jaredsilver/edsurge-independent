@@ -148,6 +148,51 @@ a, a.page-link {
 }
 
 // Homepage styles
+#index-section-icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px 0;
+
+  .index-section-icon-holder {
+    border: 1px solid $brand-color;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px 16px 8px;
+    max-width: 210px;
+    width: 100%;
+
+    .index-section-icon-background {
+      border-radius: 5px 5px 0 0;
+      padding: 12px 0;
+      text-align: center;
+
+      img {
+        max-width: 100px;
+        width: 75%;
+      }
+    }
+
+    .index-section-icons-text-container {
+      background: $brand-color;
+      border-radius: 0 0 5px 5px;
+      flex-grow: 1;
+      padding: 10px;
+
+      h3 {
+        color: #ffffff;
+        margin: -2px 0 0 0;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.index-section-header {
+  text-align: left;
+}
+
 #faq {
   margin: 50px 0;
 
