@@ -9,7 +9,7 @@ layout: default
 <div id="index-section-icons">
   <div class="index-section-icon-holder">
     <div class="index-section-icon-background">
-      <img src="{{ site.baseurl }}/images/community-icon.svg" />
+      <img src="{{ site.baseurl }}/images/icon-community.png" />
     </div>
     <div class="index-section-icons-text-container">
       <h3>Join a community deeply passionate about improving education.</h3>
@@ -17,7 +17,7 @@ layout: default
   </div>
   <div class="index-section-icon-holder">
     <div class="index-section-icon-background">
-      <img src="{{ site.baseurl }}/images/network-icon.svg" />
+      <img src="{{ site.baseurl }}/images/icon-network.png" />
     </div>
     <div class="index-section-icons-text-container">
       <h3>Meet leading education philanthropists and entrepreneurs.</h3>
@@ -25,7 +25,7 @@ layout: default
   </div>
   <div class="index-section-icon-holder">
     <div class="index-section-icon-background">
-      <img src="{{ site.baseurl }}/images/perspective-icon.svg" />
+      <img src="{{ site.baseurl }}/images/icon-perspective.png" />
     </div>
     <div class="index-section-icons-text-container">
       <h3>Share your perspective with the readers of EdSurge Independent.</h3>
