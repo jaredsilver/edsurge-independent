@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# By students, for students, to give students voice.
+<h1>By students, for students, to give students voice.</h1>
 
-## Each semester, we convene a group of the world's most impressive young people who care about making an impact in education.
+<h2>Each semester, we convene a group of the world's most impressive young people who care about making an impact in education.</h2>
 
 <div id="index-section-icons">
   <div class="index-section-icon-holder">
