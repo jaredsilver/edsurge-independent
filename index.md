@@ -35,13 +35,31 @@ layout: default
 
 {% include cta.html %}
 
-<h2 class="index-section-header">Join a Community</h2>
-discuss the most pressing challenges in education
+<div id="why-apply">
+  <h2>Why apply to become an EdSurge Independent Fellow?</h2>
+  <h3>Join a community deeply passionate about improving education.</h3>
+  <p>Each cohort of EdSurge Independent Fellows is filled with people who care as much as you do about improving education.</p>
 
-<h2 class="index-section-header">Meet Education Leaders</h2>
+  <p>Each week, you'll have the opportunity to meet online and discuss the most pressing challenges in education today.</p>
 
-<h2 class="index-section-header">Share Your Perspective</h2>
-have the opportunity to write for the EdSurge Independent publication
+  <p>These intimate, small group discussions cover topics ranging from <em>Revolution in Higher Ed</em>, to <em>Data in Education</em>, to <em>Democratic and Alternative Schooling</em>, and more.</p>
+
+  <p>This is your opportunity to connect with peers who care as much as you do about driving change.</p>
+
+  <h3>Meet leading education philanthropists and entrepreneurs.</h3>
+  <p>Gain access to some education's top philanthropists, entrepreneurs, and technologists.</p>
+
+  <p>Each cohort has the opportunity to engage in guest speaker sessions with leaders in education.</p>
+
+  <p>Past guests include the Founder of Quizlet, a Senior Program Officer at the Bill & Melinda Gates Foundation, and the Founding Dean of Minerva Schools at KGI.</p>
+
+  <h3>Share your perspective with the readers of EdSurge Independent.</h3>
+  <p>EdSurge Independent's core objective is to elevate student voices.</p>
+
+  <p>This is your chance to have your voice heard!</p>
+
+  <p>You'll have the opportunity to produce writing or other creative media for the the EdSurge Independent publication, which is ready by many fellow students and education leaders.</p>
+</div>
 
 {% include cta.html %}
 

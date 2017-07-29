@@ -152,7 +152,7 @@ a, a.page-link {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 30px 0;
+  margin: 30px 0 20px 0;
 
   .index-section-icon-holder {
     border: 1px solid $brand-color;
@@ -176,14 +176,13 @@ a, a.page-link {
 
     .index-section-icons-text-container {
       background: $brand-color;
-      border-radius: 0 0 5px 5px;
       flex-grow: 1;
       padding: 10px;
 
       h3 {
         color: #ffffff;
-        margin: -2px 0 0 0;
         font-size: 16px;
+        margin: 0;
       }
     }
   }
@@ -193,7 +192,7 @@ a, a.page-link {
   text-align: left;
 }
 
-#faq {
+#faq, #why-apply {
   margin: 50px 0;
 
   h2, h3 {

@@ -9,7 +9,7 @@ order: 2
 
 # Become an EdSurge Independent Fellow
 
-The Fall 2017 EdSurge Independent Cohort will take place beginning the week of September # and ending the week of December #. **Applications are due August # at 11:59pm PT.**
+The Fall 2017 EdSurge Independent Cohort will take place online for a few hours every week beginning September # and ending December #. **Applications are due August # at 11:59pm PT.**
 
 Apply below, or [click here to learn more]({{ site.baseurl }}/) about what it means to be an EdSurge Independent Fellow.
 
