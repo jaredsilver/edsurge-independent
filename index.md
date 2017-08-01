@@ -33,7 +33,10 @@ layout: default
   </div>
 </div>
 
-{% include cta.html %}
+<a class="primary cta" href="{{ site.baseurl }}/apply">Apply to Become a Fellow</a>
+<a name="why"></a>
+<a class="secondary cta" href="#why">Why apply to become a fellow?</a>
+
 
 <div id="why-apply">
   <h2>Why apply to become an EdSurge Independent Fellow?</h2>
